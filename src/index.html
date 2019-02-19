@@ -6,8 +6,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
+    <div id="welcome">
       <h1>Bienvenido</h1>
+      <button id="start">Empezar</button>
+    </div>
+    <div id="options"> 
+      <button id="doctor">Doctor</button>
+      <button id="patient">Paciente</button>
+    </div>
+    <div id="doctorScreen">
+      <input id="user" type="text" autocomplete="off" placeholder="Tu mensaje aquí" required>
+      <input type="number" id="offset" min="0" max="100">
+    </div>
+    <div id="patientScreen">
+      <input id="user" type="text" autocomplete="off" placeholder="Tu mensaje cifrado aquí" required>
+      <input type="number" id="offset2" min="0" max="100">
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
