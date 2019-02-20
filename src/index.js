@@ -56,7 +56,7 @@ cifer.addEventListener("click", () =>{
     for(let i=0; i< message.length; i++){
       let c = message.charCodeAt(i);
       
-         result += String.fromCharCode((c - 65 + shift) % 26 + 65);
+         result += String.fromCharCode((c - 65 + offnum) % 26 + 65);
          console.log(result);
       
   }
