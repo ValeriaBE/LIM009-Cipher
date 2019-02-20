@@ -41,9 +41,8 @@ encode.addEventListener("click", () =>{
     doctorScreen.style.display="none";
     results.style.display="block";
     resultsp.style.display ="block";
-    cipher.encode;
     document.getElementById("resultsp").innerHTML;
-    
+    encode;
 })
 
 /*función al botón paciente*/
