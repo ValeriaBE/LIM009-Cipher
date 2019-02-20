@@ -51,12 +51,12 @@ cifer.addEventListener("click", () =>{
 
     /*definir el alphabeto*/
     const alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
+    let result="";
     /*implementar un for para que recorre todo el texto*/
     for(let i=0; i< message.length; i++){
       let c = message.charCodeAt(i);
       if(c >= 65 && c <=  90) {
-        result += String.fromCharCode((c - 65 + shift) % 26 + 65);
+         result += String.fromCharCode((c - 65 + shift) % 26 + 65);
       }
   }
   console.log(result);
