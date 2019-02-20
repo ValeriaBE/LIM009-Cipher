@@ -13,6 +13,10 @@ const decode = document.getElementById("decode");
 const results2 = document.getElementById("results2");
 const resultsp2 = document.getElementById("resultsp2");
 
+/*coger el valor de los inputs*/
+const message = document.getElementById("message").value;
+const mCiphered = document.getElementById("mCiphered").value;
+
 /* solo visualizar la primera pantalla */
 options.style.display = "none";
 doctorScreen.style.display = "none";
@@ -26,6 +30,7 @@ resultsp2.style.display ="none";
 start.addEventListener("click", () =>{
     welcome.style.display="none";
     options.style.display = "block";
+    
 })
 
 /*función al botón doctor*/
