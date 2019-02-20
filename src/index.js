@@ -58,7 +58,7 @@ cifer.addEventListener("click", () =>{
       if(c >= 65 && c <=  90) {
          result += String.fromCharCode((c - 65 + shift) % 26 + 65);
       }
-      console.log(result);
+      document.write(result);
   }
 })
 
