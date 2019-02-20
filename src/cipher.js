@@ -15,6 +15,7 @@ window.cipher = {
       let res = message.charCodeAt(i);
       let fin = (res-65+offnum)%26+65;
       String.fromCharCode(fin);
+      alert(fin);
   }
   },
   decode: () => {
