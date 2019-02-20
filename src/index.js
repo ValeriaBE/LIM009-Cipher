@@ -41,7 +41,7 @@ cifer.addEventListener("click", () =>{
     doctorScreen.style.display="none";
     results.style.display="block";
     resultsp.style.display ="block";
-    document.getElementById("resultsp").innerHTML;
+    
     /* toma el valor del input y el offset*/
     const message = document.getElementById("message").value;
     const offset = document.getElementById("offset").value;
@@ -57,7 +57,8 @@ cifer.addEventListener("click", () =>{
       let c = message.charCodeAt(i);
       
          result += String.fromCharCode((c - 65 + offnum) % 26 + 65);
-         document.write(result);
+         console.log(result);
+         document.getElementById("resultsp").innerHTML=result;
       
   }
 })
