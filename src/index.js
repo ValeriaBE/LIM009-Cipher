@@ -11,17 +11,17 @@ const patientScreen = document.getElementById("patientScreen");
 const decode = document.getElementById("decode");
 const results2 = document.getElementById("results2");
 
-/* solo visualizar la primera pantalla */
-options.style.display = "none";
-doctorScreen.style.display = "none";
-patienteScreen.style.display = "none";
-
 /*función al botón empezar*/
 start.addEventListener("click", () =>{
     welcome.style.display="none";
     start.style.display="none";
     options.style.display = "block";
 })
+
+/* solo visualizar la primera pantalla */
+options.style.display = "none";
+doctorScreen.style.display = "none";
+patienteScreen.style.display = "none";
 
 /*función al botón doctor*/
 doctor.addEventListener("click", () =>{
