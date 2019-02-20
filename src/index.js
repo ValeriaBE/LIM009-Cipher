@@ -14,7 +14,7 @@ const results2 = document.getElementById("results2");
 /* solo visualizar la primera pantalla */
 options.style.display = "none";
 doctorScreen.style.display = "none";
-patientScreen.style.display = "none";
+patienteScreen.style.display = "none";
 
 /*función al botón empezar*/
 start.addEventListener("click", () =>{
@@ -43,6 +43,6 @@ patient.addEventListener("click", () =>{
 
 /*función al botón descifrar*/
 decode.addEventListener("click", () =>{
-    patientScreen.style.display="none";
+    patienteScreen.style.display="none";
     document.getElementById("results2").innerHTML="Tu mensaje descifrado es: " ;
 })
