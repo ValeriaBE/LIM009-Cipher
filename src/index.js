@@ -5,7 +5,11 @@ const options = document.getElementById("options");
 const doctor = document.getElementById("doctor");
 const patient = document.getElementById("patient");
 const doctorScreen = document.getElementById("doctorScreen");
+const encode =document.getElementById("encode");
+const results = document.getElementById("results");
 const patientScreen = document.getElementById("patientScreen");
+const decode = document.getElementById("decode");
+const results2 = document.getElementById("results2");
 
 /* solo visualizar la primera pantalla */
 options.style.display = "none";
@@ -25,8 +29,20 @@ doctor.addEventListener("click", () =>{
     doctorScreen.style.display="block";
 })
 
+/*función al botón cifrar*/
+encode.addEventListener("click", () =>{
+    doctorScreen.style.display="none";
+    document.getElementById("results").innerHTML="Tu mensaje cifrado es: " ;
+})
+
 /*función al botón paciente*/
 patient.addEventListener("click", () =>{
     options.style.display="none";
     patient.style.display="block";
+})
+
+/*función al botón descifrar*/
+decode.addEventListener("click", () =>{
+    patientScreen.style.display="none";
+    document.getElementById("results2").innerHTML="Tu mensaje cifrado es: " ;
 })
