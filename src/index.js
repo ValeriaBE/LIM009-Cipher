@@ -44,5 +44,5 @@ patient.addEventListener("click", () =>{
 /*función al botón descifrar*/
 decode.addEventListener("click", () =>{
     patientScreen.style.display="none";
-    document.getElementById("results2").innerHTML="Tu mensaje cifrado es: " ;
+    document.getElementById("results2").innerHTML="Tu mensaje descifrado es: " ;
 })
