@@ -18,7 +18,9 @@ options.style.display = "none";
 doctorScreen.style.display = "none";
 patienteScreen.style.display = "none";
 results.style.display ="none";
+resultsp.style.display ="none";
 results2.style.display="none";
+resultsp2.style.display ="none";
 
 /*función al botón empezar*/
 start.addEventListener("click", () =>{
@@ -36,6 +38,7 @@ doctor.addEventListener("click", () =>{
 encode.addEventListener("click", () =>{
     doctorScreen.style.display="none";
     results.style.display="block";
+    resultsp.style.display ="block";
     document.getElementById("resultsp").innerHTML;
 })
 
@@ -49,5 +52,6 @@ patient.addEventListener("click", () =>{
 decode.addEventListener("click", () =>{
     patienteScreen.style.display="none";
     results2.style.display="block";
+    resultsp2.style.display ="block";
     document.getElementById("resultsp2").innerHTML ;
 })
