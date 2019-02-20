@@ -12,11 +12,12 @@ window.cipher = {
 
     /*implementar un for para que recorre todo el texto*/
     for(let i=0; i< message.length; i++){
-      let res = message.charCodeAt(i);
-      let fin = (res-65+offnum)%26+65;
-      cifered += String.fromCharCode(fin);
+      let c = message.charCodeAt(i);
+      if(c >= 65 && c <=  90) {
+        result += String.fromCharCode((c - 65 + shift) % 26 + 65);
+      }
   }
-  return cifered;
+  console.log(result);
   },
   decode: () => {
     /* Acá va tu código */
