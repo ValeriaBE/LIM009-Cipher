@@ -1,12 +1,25 @@
 window.cipher = {
   encode: () => {
-    /* Acá va tu código */
-    var string="ABC"
-    string.charCodeAt(0)
-    x-65+n%26+65
-    String.fromCharCode(72)
+    /* toma el valor del input y el offset*/
+    const message = document.getElementById("message").value;
+    const offset = document.getElementById("offset").value;
+
+    /*convertir el offset en un integer*/
+    let offnum = parseInt(offset, 10);
+
+    /*definir el alphabeto*/
+    const alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    /*implementar un for para que recorre todo el texto*/
+    for(let i=0; i< message.length; i++){
+      let res = message.charCodeAt(i);
+      let fin = (res-65+offnum)%26+65;
+      String.fromCharCode(fin);
+  }
   },
   decode: () => {
     /* Acá va tu código */
+    const mCiphered = document.getElementById("mCiphered").value;
+    const offset2 = document.getElementById("offset2").value;
   }
 };
