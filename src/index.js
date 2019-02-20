@@ -7,14 +7,18 @@ const patient = document.getElementById("patient");
 const doctorScreen = document.getElementById("doctorScreen");
 const encode =document.getElementById("encode");
 const results = document.getElementById("results");
+const resultsp = document.getElementById("resultsp");
 const patientScreen = document.getElementById("patientScreen");
 const decode = document.getElementById("decode");
 const results2 = document.getElementById("results2");
+const resultsp2 = document.getElementById("resultsp2");
 
 /* solo visualizar la primera pantalla */
 options.style.display = "none";
 doctorScreen.style.display = "none";
 patienteScreen.style.display = "none";
+results.style.display ="none";
+results2.style.display="none";
 
 /*función al botón empezar*/
 start.addEventListener("click", () =>{
@@ -31,7 +35,8 @@ doctor.addEventListener("click", () =>{
 /*función al botón cifrar*/
 encode.addEventListener("click", () =>{
     doctorScreen.style.display="none";
-    document.getElementById("results").innerHTML;
+    results.style.display="block";
+    document.getElementById("resultsp").innerHTML;
 })
 
 /*función al botón paciente*/
@@ -43,5 +48,6 @@ patient.addEventListener("click", () =>{
 /*función al botón descifrar*/
 decode.addEventListener("click", () =>{
     patienteScreen.style.display="none";
-    document.getElementById("results2").innerHTML ;
+    results2.style.display="block";
+    document.getElementById("resultsp2").innerHTML ;
 })
