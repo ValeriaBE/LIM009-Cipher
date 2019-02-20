@@ -41,7 +41,8 @@ encode.addEventListener("click", () =>{
     doctorScreen.style.display="none";
     results.style.display="block";
     resultsp.style.display ="block";
-    document.getElementById("resultsp").innerHTML= cipher.encode;
+    cipher.encode;
+    document.getElementById("resultsp").innerHTML;
     
 })
 
