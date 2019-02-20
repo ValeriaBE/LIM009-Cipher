@@ -38,7 +38,7 @@ encode.addEventListener("click", () =>{
 /*función al botón paciente*/
 patient.addEventListener("click", () =>{
     options.style.display="none";
-    patientScreen.style.display="block";
+    patienteScreen.style.display="block";
 })
 
 /*función al botón descifrar*/
