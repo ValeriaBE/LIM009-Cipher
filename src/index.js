@@ -31,7 +31,7 @@ doctor.addEventListener("click", () =>{
 /*función al botón cifrar*/
 encode.addEventListener("click", () =>{
     doctorScreen.style.display="none";
-    document.getElementById("results").innerHTML="Tu mensaje cifrado es: " ;
+    document.getElementById("results").innerHTML;
 })
 
 /*función al botón paciente*/
@@ -43,5 +43,5 @@ patient.addEventListener("click", () =>{
 /*función al botón descifrar*/
 decode.addEventListener("click", () =>{
     patienteScreen.style.display="none";
-    document.getElementById("results2").innerHTML="Tu mensaje descifrado es: " ;
+    document.getElementById("results2").innerHTML ;
 })
