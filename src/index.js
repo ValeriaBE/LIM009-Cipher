@@ -5,11 +5,11 @@ const options = document.getElementById("options");
 const doctor = document.getElementById("doctor");
 const patient = document.getElementById("patient");
 const doctorScreen = document.getElementById("doctorScreen");
-const encode =document.getElementById("encode");
+const cifer =document.getElementById("cifer");
 const results = document.getElementById("results");
 const resultsp = document.getElementById("resultsp");
 const patientScreen = document.getElementById("patientScreen");
-const decode = document.getElementById("decode");
+const decifer = document.getElementById("decifer");
 const results2 = document.getElementById("results2");
 const resultsp2 = document.getElementById("resultsp2");
 
@@ -37,12 +37,12 @@ doctor.addEventListener("click", () =>{
 })
 
 /*función al botón cifrar*/
-encode.addEventListener("click", () =>{
+cifer.addEventListener("click", () =>{
     doctorScreen.style.display="none";
     results.style.display="block";
     resultsp.style.display ="block";
-    document.getElementById("resultsp").innerHTML;
-    encode;
+    document.getElementById("resultsp").innerHTML= encode;
+    
 })
 
 /*función al botón paciente*/
@@ -52,7 +52,7 @@ patient.addEventListener("click", () =>{
 })
 
 /*función al botón descifrar*/
-decode.addEventListener("click", () =>{
+decifer.addEventListener("click", () =>{
     patienteScreen.style.display="none";
     results2.style.display="block";
     resultsp2.style.display ="block";

@@ -14,9 +14,9 @@ window.cipher = {
     for(let i=0; i< message.length; i++){
       let res = message.charCodeAt(i);
       let fin = (res-65+offnum)%26+65;
-      cifer += String.fromCharCode(fin);
+      cifered += String.fromCharCode(fin);
   }
-  return cifer;
+  return cifered;
   },
   decode: () => {
     /* Acá va tu código */
