@@ -58,7 +58,7 @@ cifer.addEventListener("click", () =>{
       
          result += String.fromCharCode((c - 65 + offnum) % 26 + 65);
          console.log(result);
-         document.getElementById("resultsp").innerHTML=result;
+         document.getElementById("resultsp").innerHTML="El resultado cifrado es: " + result;
       
   }
 })
