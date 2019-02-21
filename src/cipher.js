@@ -19,7 +19,7 @@ window.cipher = {
   },
   decode: (mCiphered, offset2) => {
     /* convertir el offset2 en un integer */
-    let offset2 = parseInt(offset2, 10);
+    //let offset2 = parseInt(offset2, 10);
 
     
     /*Definir la variable resultado descifrado*/
