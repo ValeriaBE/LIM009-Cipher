@@ -9,9 +9,9 @@ window.cipher = {
 
     /*implementar un for para que recorre todo el texto*/
     for(let i=0; i< message.length; i++){
-    const valorAsccideLetra = message.charCodeAt();
-    const resultado = String.fromCharCode((valorAsccideLetra - 65 + offsetn) % 26 + 65)
-    return resultado;
+    let valorAsccideLetra = message.charCodeAt(i);
+    resultado += (valorAsccideLetra - 65 + offsetn) % 26 + 65;
+    return String.fromCharCode(resultado);
     } 
     
   },
