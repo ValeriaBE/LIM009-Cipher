@@ -7,6 +7,7 @@ window.cipher = {
     /*definir el alphabeto*/
     const alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
+    let resultado = " ";
     /*implementar un for para que recorre todo el texto*/
     for(let i=0; i< message.length; i++){
     let valorAsccideLetra = message.charCodeAt(i);
