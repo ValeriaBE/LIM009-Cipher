@@ -5,7 +5,7 @@ body{
 
 #banner{
     outline: 1px solid blue;
-    align-items: center;
+    
 }
 
 #logo {
@@ -17,6 +17,6 @@ body{
 
 #name{
     display: inline-block;
-    text-align:center;
+    box-align:center;
     
 }
