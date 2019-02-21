@@ -6,3 +6,6 @@ body{
 #banner{
     outline: 1px solid blue;
 }
+#logo{
+     content: 20px 20px;
+}
