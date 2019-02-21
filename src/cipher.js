@@ -21,12 +21,16 @@ window.cipher = {
     /* convertir el offset2 en un integer */
     let offset2 = parseInt(offset2, 10);
 
+  
     /*Definir la variable resultado descifrado*/
     let resultadoDecode = " ";
+
     /*implementar un for y definir la formula*/
     for(let j=0; j<mCiphered.length; j++){
-      resultadoDecode = String.fromCharCode((26 - offset2) % 26);
+      let valor = mCiphered.charCodeAt(j);
+      resultadoDecode += String.fromCharCode((valor - offsetn) % 26);
     }
+  
     return resultadoDecode;
 
   }
