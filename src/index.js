@@ -8,6 +8,7 @@ const doctorScreen = document.getElementById("doctorScreen");
 const cifer =document.getElementById("cifer");
 const results = document.getElementById("results");
 const resultsp = document.getElementById("resultsp");
+const send = document.getElementById("send");
 const patientScreen = document.getElementById("patientScreen");
 const decifer = document.getElementById("decifer");
 const results2 = document.getElementById("results2");
@@ -41,26 +42,21 @@ cifer.addEventListener("click", () =>{
     doctorScreen.style.display="none";
     results.style.display="block";
     resultsp.style.display ="block";
-    
-    /* toma el valor del input y el offset*/
-    const message = document.getElementById("message").value;
-    const offset = document.getElementById("offset").value;
 
-    /*convertir el offset en un integer*/
-    let offnum = parseInt(offset, 10);
+     /* toma el valor del input y el offset*/
+     const message = document.getElementById("message").value;
+     const offset = document.getElementById("offset").value;
 
-    /*definir el alphabeto*/
-    const alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    let result="";
-    /*implementar un for para que recorre todo el texto*/
-    for(let i=0; i< message.length; i++){
-      let c = message.charCodeAt(i);
-      
-         result += String.fromCharCode((c - 65 + offnum) % 26 + 65);
+        cipher.encode(message, offset);
          console.log(result);
          document.getElementById("resultsp").innerHTML="El resultado cifrado es: " + result;
       
-  }
+  
+})
+
+/*button enviar*/
+send.addEventListener("click", () =>{
+
 })
 
 /*función al botón paciente*/
