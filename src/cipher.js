@@ -13,7 +13,7 @@ window.cipher = {
     const resultado = String.fromCharCode((valorAsccideLetra - 65 + offsetn) % 26 + 65)
     return resultado;
     } 
-    document.getElementById("resultsp").innerHTML="El resultado cifrado es: " + result;
+    
   },
   decode: () => {
     /* Acá va tu código */
