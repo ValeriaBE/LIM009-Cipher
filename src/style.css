@@ -11,4 +11,11 @@ body{
      width: 10%;
      height: 10%;
      padding: 20px;
+     outline: 1px solid red;
+     display: inline-block;
+}
+
+#name{
+    display: inline-block;
+    outline: 1px solid green;
 }
