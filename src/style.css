@@ -3,14 +3,14 @@ body{
     margin:auto;
   }
 
-#banner{
+.banner{
     outline: 1px solid blue;
 }
-#logo{
+.logo{
     outline: 1px solid red;
     width: 100px;
 }
-#logo img{
+.logo img{
      width: 10%;
      height: 10%;
      padding: 20px;
