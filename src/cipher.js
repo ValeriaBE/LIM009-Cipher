@@ -28,10 +28,10 @@ window.cipher = {
     /*implementar un for y definir la formula*/
     for(let j=0; j<mCiphered.length; j++){
       let valor = mCiphered.charCodeAt(j);
-      resultadoDecode += String.fromCharCode((valor - offset2n) % 26);
+      resultadoDecode += String.fromCharCode((valor - offset2n + 65) % 26 + 65);
     }
   
-    return resultadoDecode;
+    return (resultadoDecode);
 
   }
 };
