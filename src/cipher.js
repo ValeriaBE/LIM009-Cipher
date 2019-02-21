@@ -12,9 +12,9 @@ window.cipher = {
     for(let i=0; i< message.length; i++){
     let valorAsccideLetra = message.charCodeAt(i);
     resultado += (valorAsccideLetra - 65 + offsetn) % 26 + 65;
-    return String.fromCharCode(resultado);
-    } 
     
+    } 
+    return String.fromCharCode(resultado);
   },
   decode: () => {
     /* Acá va tu código */
