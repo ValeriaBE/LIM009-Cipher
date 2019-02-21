@@ -11,10 +11,10 @@ window.cipher = {
     /*implementar un for para que recorre todo el texto*/
     for(let i=0; i< message.length; i++){
     let valorAsccideLetra = message.charCodeAt(i);
-    resultado += (valorAsccideLetra - 65 + offsetn) % 26 + 65;
+    resultado += String.fromCharCode((valorAsccideLetra - 65 + offsetn) % 26 + 65);
     
     } 
-    return String.fromCharCode(resultado);
+    return (resultado);
   },
   decode: () => {
     /* Acá va tu código */
