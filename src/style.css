@@ -11,14 +11,13 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 #logo {
      width: 10%;
      height: 10%;
      padding: 10px;
-     margin-right: 450px;
      outline: 1px solid green;
      display: inline-block;
 }
