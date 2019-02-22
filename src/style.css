@@ -4,20 +4,11 @@ body{
   }
 
 .header{
-    /*width: 960px;
+    width: auto;
     display: block;
     background-color: #17a2b8;
     padding: 6px;
-    margin: 0 auto;*/
-
-    background: #17a2b8;
-  box-sizing: border-box;
-  display: block;
-  height: 100px;
-  /*margin: 10px;*/
-  padding-top: 1px;
-  /*padding-left: 8px;*/
-  width: auto;
+    margin: 0 auto;
 }
 
 #logo {
@@ -29,7 +20,7 @@ body{
 
 #name{
     display: inline-block;
-    /*margin-left: 300px;
-    padding-bottom: 30px;*/
+    margin-left: 300px;
+    padding-bottom: 30px;
     font-family: Arial, sans-serif;
 }
