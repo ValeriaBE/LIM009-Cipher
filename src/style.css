@@ -3,7 +3,7 @@ body{
     margin:auto;
   }
 
-.header{
+#header{
     width: 960px;
     display: block;
     background-color: #17a2b8;
