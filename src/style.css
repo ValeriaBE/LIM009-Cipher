@@ -24,5 +24,6 @@
     margin: 0px 0px 0px 400px ;
     outline: 1px solid red;
     font-family: Arial, sans-serif;
+    line-height: 200px;
     vertical-align: middle;
 }
