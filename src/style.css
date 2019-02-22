@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-.logo {
+#logo {
      width: 10%;
      height: 10%;
      padding: 10px;
@@ -22,7 +22,7 @@
      display: inline-block;
 }
 
-.name{
+#name{
     display: inline-block;
     /*margin: 0px 0px 0px 400px ;*/
     outline: 1px solid red;
