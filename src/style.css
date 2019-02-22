@@ -21,10 +21,14 @@
 
 #name{
     display: inline-block;
-    margin: 0px 0px 0px 400px ;
-    padding-bottom: 200px;
+    /*margin: 0px 0px 0px 400px ;*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     outline: 1px solid red;
     font-family: Arial, sans-serif;
-    line-height: normal;
-    vertical-align: middle;
+   
 }
