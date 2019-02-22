@@ -5,7 +5,7 @@ window.cipher = {
     let offsetn = parseInt(offset, 10);
 
     /*definir el alphabeto*/
-    const alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    //const alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     /*definir una variable resultado vacío*/
     let resultado = " ";
