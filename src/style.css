@@ -19,7 +19,7 @@
      display: inline-block;
 }
 
-#name{
+h1{
     display: inline-block;
     margin: 0px 0px 0px 400px ;
     outline: 1px solid red;
