@@ -14,18 +14,18 @@
     align-items: center;
 }
 
-#logo {
+.logo {
      width: 10%;
      height: 10%;
      padding: 10px;
-     justify-content: center;
      outline: 1px solid green;
      display: inline-block;
 }
 
-#name{
+.name{
     display: inline-block;
     /*margin: 0px 0px 0px 400px ;*/
+    justify-content: center;
     outline: 1px solid red;
     font-family: Arial, sans-serif;
    
