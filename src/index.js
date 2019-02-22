@@ -56,7 +56,8 @@ cifer.addEventListener("click", () =>{
 
 /*button enviar*/
 send.addEventListener("click", () =>{
-
+results.style.display="none";
+options.style.display="block";
 })
 
 /*función al botón paciente*/
