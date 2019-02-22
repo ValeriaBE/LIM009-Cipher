@@ -1,12 +1,11 @@
-/*body{
-    width: 1000px;
-    margin:auto;
+body{
+    background-color: aliceblue;
   }
-*/
+
 .header{
     width: auto;
     display: block;
-    background-color: #17a2b8;
+    background-color: #9CBFEA;
     padding: 6px;
     margin: 0 auto;
     display: flex;
@@ -18,14 +17,13 @@
      width: 10%;
      height: 10%;
      padding: 10px;
-     outline: 1px solid green;
+     
      display: inline-block;
 }
 
 #name{
     display: inline-block;
-    /*margin: 0px 0px 0px 400px ;*/
-    outline: 1px solid red;
+    color:white;
     font-family: Arial, sans-serif;
    
 }
