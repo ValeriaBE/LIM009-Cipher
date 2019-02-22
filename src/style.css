@@ -13,13 +13,13 @@ body{
 #logo {
      width: 10%;
      height: 10%;
-     padding: 20px;
+     padding: 10px;
      display: inline-block;
 }
 
 #name{
     display: inline-block;
     margin-left: 300px;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
     font-family: Arial, sans-serif;
 }
