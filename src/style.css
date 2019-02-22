@@ -10,7 +10,7 @@
     padding: 6px;
     margin: 0 auto;
     display: flex;
-    /*justify-content: center;*/
+    justify-content: center;
     align-items: center;
 }
 
@@ -25,7 +25,6 @@
 .name{
     display: inline-block;
     /*margin: 0px 0px 0px 400px ;*/
-    justify-content: center;
     outline: 1px solid red;
     font-family: Arial, sans-serif;
    
