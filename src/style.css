@@ -21,7 +21,7 @@
 
 #name{
     display: inline-block;
-    margin-left: 400px;
+    margin: 0px 0px 0px 400px ;
     outline: 1px solid red;
     font-family: Arial, sans-serif;
 }
