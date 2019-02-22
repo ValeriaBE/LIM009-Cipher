@@ -3,12 +3,15 @@ body{
     margin:auto;
   }
 
-#header{
-    width: 960px;
-    display: block;
-    background-color: #17a2b8;
-    padding: 6px;
-    margin: 0 auto;
+.header{
+    background: rgb(247, 182, 23);
+  box-sizing: border-box;
+  display: block;
+  height: 100px;
+  margin: 10px;
+  padding-top: 1px;
+  padding-left: 8px;
+  width: auto;
 }
 
 #logo {
@@ -20,7 +23,7 @@ body{
 
 #name{
     display: inline-block;
-    margin-left: 300px;
-    padding-bottom: 30px;
+    /*margin-left: 300px;
+    padding-bottom: 30px;*/
     font-family: Arial, sans-serif;
 }
