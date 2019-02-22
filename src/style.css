@@ -4,13 +4,19 @@ body{
   }
 
 .header{
-    background: rgb(247, 182, 23);
+    /*width: 960px;
+    display: block;
+    background-color: #17a2b8;
+    padding: 6px;
+    margin: 0 auto;*/
+
+    background: #17a2b8;
   box-sizing: border-box;
   display: block;
   height: 100px;
-  margin: 10px;
+  /*margin: 10px;*/
   padding-top: 1px;
-  padding-left: 8px;
+  /*padding-left: 8px;*/
   width: auto;
 }
 
