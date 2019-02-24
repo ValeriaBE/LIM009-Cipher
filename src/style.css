@@ -26,6 +26,16 @@ font-family: Gill Sans, sans-serif;
     justify-content: center;
 }
 
+button{
+    border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-family: 'Impact', Charcoal, sans-serif;
+  color: #fff;
+  background-color: #FF8B3E;
+}
+
 #logo {
      width: 8%;
      height: 8%;
