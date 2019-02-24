@@ -18,12 +18,12 @@ font-family: Gill Sans, sans-serif;
 }
 
 #instructions{
-    width: 1000px;
-    margin:auto;
-    /*margin: 0px 500px 0px 500px;*/
-    display: flex;
+    /*width: 1000px;
+    margin:auto;*/
+    margin: 0px 500px 0px 500px;
+    /*display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
 }
 
 button{
