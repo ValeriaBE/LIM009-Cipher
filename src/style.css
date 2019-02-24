@@ -15,8 +15,16 @@ body{
 
 #welcome{
 font-family: Gill Sans, sans-serif;
+display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+#bienvenido{
+    margin:0;
+    font-size: 50px;
+    
+}
 #instructions{
     /*width: 1000px;
     margin:auto;*/
@@ -26,18 +34,15 @@ font-family: Gill Sans, sans-serif;
     justify-content: center;*/
 }
 
-button{
-    margin-left: 650px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#start{
+margin: 0;
   border: none;
   border-radius: 6px;
   padding: 10px 20px;
   font-size: 25px;
   font-family: Gill Sans, sans-serif;
   color: #fff;
-  background-color: #FF8B3E;
+  background-color: #19B2B2;
 }
 
 #logo {
