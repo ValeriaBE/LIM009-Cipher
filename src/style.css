@@ -74,7 +74,7 @@ margin-top: 20px;
 }
 
 #options{
-    width: 500px;
+    width: 220px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -84,6 +84,7 @@ margin-top: 20px;
 #doctor{
     display:inline-block; 
     margin: 0;
+    margin-right: 20px;
   border: none;
   border-radius: 6px;
   padding: 10px 20px;
