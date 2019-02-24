@@ -7,7 +7,7 @@ body{
     display: block;
     background-color: white;
     padding: 6px;
-    margin: 0 auto;
+    margin: 0px 0px 0px 50px;
     /*display: flex;*/
     justify-content: center;
     align-items: center;
