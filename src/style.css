@@ -44,14 +44,14 @@ button{
      width: 4%;
      height: 4%;
      padding: 4px;
-     margin: 30px 0px 0px 100px;
+     margin: 10px 0px 10px 100px;
      display: inline-block;
 }
 
 #name{
     display: inline-block;
     color:#19B2B2;
-    margin-left: 50px;
+    margin-left: 30px;
     font-family: Arial, sans-serif;
    
 }
