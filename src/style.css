@@ -27,10 +27,11 @@ font-family: Gill Sans, sans-serif;
 }
 
 button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
+    margin-left: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
   border-radius: 6px;
   padding: 10px 20px;
   font-size: 25px;
