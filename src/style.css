@@ -72,3 +72,31 @@ margin-top: 20px;
     font-family: Arial, sans-serif;
    
 }
+
+#options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#doctor{
+    margin: 0;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-family: Gill Sans, sans-serif;
+  color: #fff;
+  background-color: #97D700;
+}
+
+#patient{
+    margin: 0;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 20px;
+      font-size: 25px;
+      font-family: Gill Sans, sans-serif;
+      color: #fff;
+      background-color: #97D700;
+}
