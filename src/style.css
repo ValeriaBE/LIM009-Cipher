@@ -20,7 +20,7 @@ display: block;
 align-items: center;
 justify-content: center;
   height: 200px;
-  margin-left: 200px;
+  margin-left: 500px;
   padding-top: 1px;
   padding-left: 10px;
   width: 300px;
@@ -33,11 +33,11 @@ justify-content: center;
 
 }
 #instructions{
-    /*width: 1000px;
-    margin:auto;
+    width: 600px;
+    /*margin:auto;
     margin: 0px 500px 0px 500px;
     
-    /*display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;*/
 }
