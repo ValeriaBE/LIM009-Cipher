@@ -44,7 +44,7 @@ button{
      width: 4%;
      height: 4%;
      padding: 4px;
-     margin: 10px 0px 5px 100px;
+     /*margin: 10px 0px 5px 100px;*/
      display: inline-block;
      vertical-align: middle;
 }
@@ -52,7 +52,8 @@ button{
 #name{
     display: inline-block;
     color:#19B2B2;
-    margin-left: 30px;
+    /*margin-left: 30px;*/
+    vertical-align: middle;
     font-family: Arial, sans-serif;
    
 }
