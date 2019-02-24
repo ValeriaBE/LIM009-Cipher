@@ -74,6 +74,7 @@ margin-top: 20px;
 }
 
 #options{
+    width: 500px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -81,6 +82,7 @@ margin-top: 20px;
 }
 
 #doctor{
+    display:inline-block; 
     margin: 0;
   border: none;
   border-radius: 6px;
@@ -92,6 +94,7 @@ margin-top: 20px;
 }
 
 #patient{
+    display: inline-block;
     margin: 0;
       border: none;
       border-radius: 6px;
