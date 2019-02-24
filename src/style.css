@@ -15,9 +15,6 @@ body{
 
 #welcome{
 font-family: Gill Sans, sans-serif;
-display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #instructions{
@@ -30,7 +27,7 @@ display: flex;
 }
 
 button{
-    /*margin-left: 450px;*/
+    margin-left: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
