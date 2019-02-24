@@ -106,3 +106,55 @@ margin-top: 20px;
       color: #fff;
       background-color: #97D700;
 }
+
+#cifer{
+    margin: 0;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: Gill Sans, sans-serif;
+    color: #fff;
+    background-color: #97D700;
+}
+
+#send{
+    margin: 0;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: Gill Sans, sans-serif;
+    color: #fff;
+    background-color: #97D700;
+
+}
+
+#decifer{
+    margin: 0;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: Gill Sans, sans-serif;
+    color: #fff;
+    background-color: #97D700;
+}
+
+#doctorScreen{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#message{
+    display: inline-block;
+    height: 100px;
+    width:200px;
+}
+
+#offset{
+    display: inline-block;
+}
+
