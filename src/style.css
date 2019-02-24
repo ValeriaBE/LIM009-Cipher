@@ -16,7 +16,8 @@ body{
 #welcome{
 font-family: Gill Sans, sans-serif;
 display: block;
-  
+align-items: center;
+justify-content: center;
   height: 200px;
   margin: 10px;
   padding-top: 1px;
@@ -28,11 +29,13 @@ display: block;
     margin:0;
     font-size: 50px;
     color: #97D700;
+
 }
 #instructions{
     /*width: 1000px;
-    margin:auto;*/
+    margin:auto;
     margin: 0px 500px 0px 500px;
+    
     /*display: flex;
     align-items: center;
     justify-content: center;*/
