@@ -41,9 +41,10 @@ button{
 }
 
 #logo {
-     width: 4%;
-     height: 4%;
-     padding: 4px;
+     width: 2%;
+     height: 2%;
+     padding: 2px;
+     margin-right: 250px;
      display: inline-block;
 }
 
