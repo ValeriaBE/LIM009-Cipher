@@ -79,19 +79,20 @@ margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margint-top:200px;
+}
 
 #doctor{
-    display:inline-block; 
+    display: inline-block;
     margin: 0;
-    margin-right: 20px;
-  border: none;
-  border-radius: 6px;
-  padding: 10px 20px;
-  font-size: 25px;
-  font-family: Gill Sans, sans-serif;
-  color: #fff;
-  background-color: #97D700;
+    margin-right:20px;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 20px;
+      font-size: 25px;
+      font-family: Gill Sans, sans-serif;
+      color: #fff;
+      background-color: #97D700; 
 }
 
 #patient{
