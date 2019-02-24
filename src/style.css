@@ -20,7 +20,7 @@ font-family: Gill Sans, sans-serif;
 #instructions{
     margin: 0px 500px 0px 500px;
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 
 #logo {
