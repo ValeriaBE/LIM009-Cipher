@@ -18,8 +18,7 @@ font-family: Gill Sans, sans-serif;
 }
 
 #instructions{
-    /*margin: 0px 500px 0px 500px;*/
-    margin: 0 auto;
+    margin: 0px 500px 0px 500px;
     display: flex;
     align-items: center;
     justify-content: center;
