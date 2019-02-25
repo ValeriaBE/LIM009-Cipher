@@ -44,7 +44,7 @@ cifer.addEventListener("click", () =>{
     results.style.display="block";
     resultsp.style.display ="block";
 
-    alert("El resultado se ha cifrado");
+    /*alert("El resultado se ha cifrado");*/
 
      /* toma el valor del input y el offset*/
      const message = document.getElementById("message").value;
@@ -76,7 +76,7 @@ decifer.addEventListener("click", () =>{
     results2.style.display="block";
     resultsp2.style.display ="block";
 
-    alert("Tu resultado se ha descifrado");
+    /*alert("Tu resultado se ha descifrado");*/
 
     /*coger los valores del mensaje y el offset*/
     const mCiphered = document.getElementById("mCiphered").value;
