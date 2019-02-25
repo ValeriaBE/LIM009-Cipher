@@ -143,12 +143,12 @@ margin-top: 20px;
     color: #fff;
     background-color: #97D700;
     margin-top:20px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 #doctorScreen{
     
-    width: 200px;
+    width: 350px;
     margin: 0;
     display: block;
     justify-content: center;
@@ -163,7 +163,11 @@ margin-top: 20px;
 
 #offset{
     display: inline-block;
+    margin-left: 20px;
+
+    
 }
+
 
 #results{
     width: 300px;
@@ -185,7 +189,7 @@ margin-top: 20px;
 }
 
 #patienteScreen{
-    width: 200px;
+    width: 350px;
     margin: 0;
     display: block;
     justify-content: center;
@@ -210,6 +214,7 @@ margin-top: 20px;
 
 #offset2{
     display: inline-block;
+    margin-left: 20px;
 }
 
 #resultsp2{
