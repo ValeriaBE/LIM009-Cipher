@@ -13,6 +13,7 @@ const patienteScreen = document.getElementById("patienteScreen");
 const decifer = document.getElementById("decifer");
 const results2 = document.getElementById("results2");
 const resultsp2 = document.getElementById("resultsp2");
+const home =document.getElementById("home");
 
 
 
@@ -80,4 +81,10 @@ decifer.addEventListener("click", () =>{
     /*llamar la función y mostrarlo*/
     document.getElementById("resultsp2").innerHTML = "Tu resultado descifrado es: " 
     document.getElementById("functionDecifer").innerHTML= cipher.decode(mCiphered, offset2) ;
+})
+
+home.addEventListener("click", () =>{
+    welcome.style.display="block";
+    results2.style.display="none";
+    resultsp2.style.display ="none";
 })
