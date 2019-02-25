@@ -145,7 +145,7 @@ margin-top: 20px;
 #doctorScreen{
     margin-top: 300px;
     width: 200px;
-    margin: auto;
+    margin: 0;
     display: block;
     justify-content: center;
     align-items: center;
