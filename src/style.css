@@ -161,7 +161,7 @@ margin-top: 20px;
     display: inline-block;
 }
 
-results{
+#results{
     width: 300px;
     margin: 0;
     display: block;
