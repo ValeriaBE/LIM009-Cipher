@@ -48,7 +48,8 @@ cifer.addEventListener("click", () =>{
      const offset = document.getElementById("offset").value;
 
      /*llamar la función encode y mostrarlo en la pantalla*/
-     document.getElementById("resultsp").innerHTML="El resultado cifrado es: " + cipher.encode(message, offset);
+     document.getElementById("resultsp").innerHTML="El resultado cifrado es: " 
+     document.getElementById("functionCall").innerHTML= cipher.encode(message, offset);
          
       
   

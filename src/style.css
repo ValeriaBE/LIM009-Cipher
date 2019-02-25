@@ -161,3 +161,19 @@ margin-top: 20px;
     display: inline-block;
 }
 
+results{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+#resultsp{
+    font-family: Gill Sans, sans-serif;
+}
+
+#functionCall{
+    font-family: Gill Sans, sans-serif;
+    color: #97D700;
+}
