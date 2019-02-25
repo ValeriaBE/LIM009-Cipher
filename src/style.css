@@ -133,6 +133,8 @@ margin-top: 20px;
 }
 
 #decifer{
+    margin-top:20px;
+    margin-left: 95px;
     margin: 0;
     border: none;
     border-radius: 6px;
@@ -191,7 +193,7 @@ margin-top: 20px;
     margin-top: 200px;
 }
 
-#results{
+#results2{
     width: 300px;
     margin: 0;
     display: block;
