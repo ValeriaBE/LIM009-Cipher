@@ -49,7 +49,7 @@ cifer.addEventListener("click", () =>{
      const offset = document.getElementById("offset").value;
 
      /*llamar la función encode y mostrarlo en la pantalla*/
-     document.getElementById("resultsp").innerHTML="El resultado cifrado es: " 
+     document.getElementById("resultsp").innerHTML="El resultado cifrado es: " ;
      document.getElementById("functionCall").innerHTML= cipher.encode(message, offset);
          
       
@@ -79,7 +79,7 @@ decifer.addEventListener("click", () =>{
     const offset2 = document.getElementById("offset2").value;
 
     /*llamar la función y mostrarlo*/
-    document.getElementById("resultsp2").innerHTML = "Tu resultado descifrado es: " 
+    document.getElementById("resultsp2").innerHTML = "Tu resultado descifrado es: " ;
     document.getElementById("functionDecifer").innerHTML= cipher.decode(mCiphered, offset2) ;
 })
 
