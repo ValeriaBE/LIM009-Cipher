@@ -13,7 +13,7 @@ const patienteScreen = document.getElementById("patienteScreen");
 const decifer = document.getElementById("decifer");
 const results2 = document.getElementById("results2");
 const resultsp2 = document.getElementById("resultsp2");
-const home =document.getElementById("home");
+const home =document.getElementById("back");
 
 
 
