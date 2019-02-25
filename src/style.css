@@ -201,6 +201,14 @@ margin-top: 20px;
     margin-top: 200px;
 }
 
+#mCiphered{
+    display: inline-block;
+}
+
+#offset2{
+    display: inline-block;
+}
+
 #resultsp2{
     font-family: Gill Sans, sans-serif;   
 }

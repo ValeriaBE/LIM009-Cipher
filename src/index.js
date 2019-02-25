@@ -84,7 +84,7 @@ decifer.addEventListener("click", () =>{
 })
 
 home.addEventListener("click", () =>{
-    welcome.style.display="block";
     results2.style.display="none";
     resultsp2.style.display ="none";
+    welcome.style.display="block";
 })
