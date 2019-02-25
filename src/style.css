@@ -162,6 +162,7 @@ margin-top: 20px;
 }
 
 results{
+    width: 300px;
     display: block;
     justify-content: center;
     align-items: center;
