@@ -177,5 +177,35 @@ margin-top: 20px;
 
 #functionCall{
     font-family: Gill Sans, sans-serif;
-    color: #97D700;
+    color: #F5BC5E;
+}
+
+#results2{
+    width: 300px;
+    margin: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 200px;
+}
+
+#resultsp2{
+    font-family: Gill Sans, sans-serif;   
+}
+
+#functionDecifer{
+    font-family: Gill Sans, sans-serif;
+    color: #F5BC5E;
+}
+
+#home{
+    margin-left: 95px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: Gill Sans, sans-serif;
+    color: #fff;
+    background-color: #97D700;  
 }

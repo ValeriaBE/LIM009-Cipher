@@ -78,5 +78,6 @@ decifer.addEventListener("click", () =>{
     const offset2 = document.getElementById("offset2").value;
 
     /*llamar la función y mostrarlo*/
-    document.getElementById("resultsp2").innerHTML = "Tu resultado descifrado es: " + cipher.decode(mCiphered, offset2) ;
+    document.getElementById("resultsp2").innerHTML = "Tu resultado descifrado es: " 
+    document.getElementById("functionDecifer").innerHTML= cipher.decode(mCiphered, offset2) ;
 })
