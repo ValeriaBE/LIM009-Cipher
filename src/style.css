@@ -133,8 +133,7 @@ margin-top: 20px;
 }
 
 #decifer{
-    margin-top:20px;
-    margin-left: 100px;
+    
     margin: 0;
     border: none;
     border-radius: 6px;
@@ -143,6 +142,8 @@ margin-top: 20px;
     font-family: Gill Sans, sans-serif;
     color: #fff;
     background-color: #97D700;
+    margin-top:20px;
+    margin-left: 100px;
 }
 
 #doctorScreen{
@@ -221,8 +222,7 @@ margin-top: 20px;
 }
 
 #home{
-    margin-top:20px;
-    margin-left: 95px;
+    
     border: none;
     border-radius: 6px;
     padding: 10px 20px;
@@ -230,4 +230,6 @@ margin-top: 20px;
     font-family: Gill Sans, sans-serif;
     color: #fff;
     background-color: #97D700;  
+    margin-top:20px;
+    margin-left: 95px;
 }
