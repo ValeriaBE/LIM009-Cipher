@@ -1,4 +1,4 @@
-#CifraMed
+# CifraMed
 Este proyecto se basa en poder cifrar y descifrar resultados médicos. ¿Cómo así se nos ocurrió la idea? Fue un proceso bien simple. Primero, averiguamos sobre la política de privacidad de un paciente en el Perú. Nosotros tenemos dos leyes que de manera muy general toca los temas de _Seguridad de la información_ y _código de protección y defensa del consumidor_. Según, mi investigación cada clínica se responsabiliza por la privacidad del paciente. Por eso, tomaremos como ejemplo a la clínica [ONCOSALUD]. Voy a presentar dos principios de su reglamento.
 - ONCOSALUD adopta las medidas de seguridad necesarias para garantizar la protección de la información del Usuario a fin de evitar su alteración, pérdida, tratamiento y/o _acceso no autorizado_
 - La ONCOSALUD se compromete a no divulgar o compartir los Datos Personales del Usuario, sin que haya prestado el debido consentimiento para ello.
