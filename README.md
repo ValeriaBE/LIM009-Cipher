@@ -1,10 +1,15 @@
 # CifraMed
-Este proyecto se basa en poder cifrar y descifrar resultados médicos. ¿Cómo así se nos ocurrió la idea? Fue un proceso bien simple. Primero, averiguamos sobre la política de privacidad de un paciente en el Perú. Nosotros tenemos dos leyes que de manera muy general toca los temas de _Seguridad de la información_ y _código de protección y defensa del consumidor_. Según, mi investigación cada clínica se responsabiliza por la privacidad del paciente. Por eso, tomaremos como ejemplo a la clínica [ONCOSALUD]. Voy a presentar dos principios de su reglamento.
-- ONCOSALUD adopta las medidas de seguridad necesarias para garantizar la protección de la información del Usuario a fin de evitar su alteración, pérdida, tratamiento y/o _acceso no autorizado_
+
+Este proyecto se basa en poder cifrar y descifrar resultados médicos. ¿Cómo así se nos ocurrió la idea? Fue un proceso bien simple. Primero, averiguamos sobre la política de privacidad de un paciente en el Perú. Nosotros tenemos dos leyes que de manera muy general toca los temas de _Seguridad de la información_ y _código de protección y defensa del consumidor_. Según, mi investigación cada clínica se responsabiliza por la privacidad del paciente. Por eso, tomaremos como ejemplo a la clínica Oncosalud. Voy a presentar dos principios de su reglamento.
+
+- ONCOSALUD adopta las medidas de seguridad necesarias para garantizar la protección de la información del Usuario a fin de evitar su alteración, pérdida, tratamiento y/o _acceso no autorizado_.
 - La ONCOSALUD se compromete a no divulgar o compartir los Datos Personales del Usuario, sin que haya prestado el debido consentimiento para ello.
+
 Si bien es cierto esto puede servir para proteger al paciente de manera presencial, Oncosalud tiene un sitio web muy activo y fucnional. Su sitio es utilizado por varios pacientes y tiene una opción de solicitar su diagnóstico. Ahora, si nos ponemos en el peor de los casos, alguien con el usuario y la contraseña puede entrar a ver los resultados del otro. Oncosalud no menciona nada sobre su sitio web, ahí es donde encontramos un vacío.
-Es por eso que proponemos a CifraMed. Un sistema de cifrado donde el doctor o el staff médico puede ingresar los resultados médicos del paciente y cifrarlo mediante un código especial, con el fin de salvaguardar la privacidad de los resultados del paciente. Después, de haberse enviado el documento el paciente tendrá que ingresar ese mismo código especial para poder descifrar sus resultados médicos. 
-[Decisiones-de-diseño]:
+Es por eso que proponemos a CifraMed. Un sistema de cifrado donde el doctor o el staff médico puede ingresar los resultados médicos del paciente y cifrarlo mediante un código especial, con el fin de salvaguardar la privacidad de los resultados del paciente. Después, de haberse enviado el documento el paciente tendrá que ingresar ese mismo código especial para poder descifrar sus resultados médicos.
+
+Decisiones de diseño:
+
 - El nombre CifraMed es la unión de las palabras cifrar y médico. Como esto será un sistema para presentarlo a clínicas tiene que tener un nombre genérico y simple para acordarse.
 - El isotipo (_la figura de un folder con una cruz_) fue escogido a base de su color azul y por su simplicidad. Al verlo se entiende que se trata de algo médico.
 - El fondo blanco se escogió porque el color trae tranquilidad y se asocia con transparencia y limpieza.
@@ -12,15 +17,13 @@ Es por eso que proponemos a CifraMed. Un sistema de cifrado donde el doctor o el
 - Los colores azul, verde, anaranjado fueron escogidos a propósito a través de una rueda de colores complementarios. Azul siempre se debió usar por lo que otras páginas de clínicas utilizan este color.
 - Los botones tienen bordes redondos para que el usuario tengan una vista más suave al ver y usar la página.
 - El resultado al final se plasma de otro color para notar la diferencia entre el texto de arriba y el resultado.
-[Imagenes-de-la-página]:
-- Logo 
-![logo](https://ibb.co/HrSkdqx)
-- Bienvenida 
-![welcome](https://ibb.co/5WNshMf)
-- Botón 
-![button](https://ibb.co/c3wDvkp)
-- Resultado 
-![results](https://ibb.co/Xk9xdHG)
+
+Imagenes de la página:
+
+![logo](https://i.ibb.co/NNWLwrX/Captura-de-pantalla-2019-02-27-a-la-s-08-13-36.png)
+![welcome](https://i.ibb.co/KmkfCj0/Captura-de-pantalla-2019-02-27-a-la-s-08-13-48.png)
+![button](https://i.ibb.co/FzxHzn1/Captura-de-pantalla-2019-02-27-a-la-s-08-14-00.png)
+![results](https://i.ibb.co/5MXzGRp/Captura-de-pantalla-2019-02-27-a-la-s-08-14-35.png)
 
 
 # Cifrado César
