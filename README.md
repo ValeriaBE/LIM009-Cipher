@@ -13,10 +13,14 @@ Es por eso que proponemos a CifraMed. Un sistema de cifrado donde el doctor o el
 - Los botones tienen bordes redondos para que el usuario tengan una vista más suave al ver y usar la página.
 - El resultado al final se plasma de otro color para notar la diferencia entre el texto de arriba y el resultado.
 [Imagenes-de-la-página]:
-- Logo (https://ibb.co/HrSkdqx)
-- Bienvenida (https://ibb.co/5WNshMf)
-- Botón (https://ibb.co/c3wDvkp)
-- Resultado (https://ibb.co/Xk9xdHG)
+- Logo 
+![logo](https://ibb.co/HrSkdqx)
+- Bienvenida 
+![welcome](https://ibb.co/5WNshMf)
+- Botón 
+![button](https://ibb.co/c3wDvkp)
+- Resultado 
+![results](https://ibb.co/Xk9xdHG)
 
 
 # Cifrado César
