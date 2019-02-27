@@ -14,7 +14,7 @@ const decifer = document.getElementById("decifer");
 const results2 = document.getElementById("results2");
 const resultsp2 = document.getElementById("resultsp2");
 const home =document.getElementById("back");
-
+const copiar = document.getElementById("copiar");
 
 
 /* solo visualizar la primera pantalla */
@@ -50,13 +50,30 @@ cifer.addEventListener("click", () =>{
      const message = document.getElementById("message").value;
      const offset = document.getElementById("offset").value;
 
+     let offsetn = parseInt(offset, 10);
+
      /*llamar la función encode y mostrarlo en la pantalla*/
      document.getElementById("resultsp").innerHTML="El resultado cifrado es: " ;
-     document.getElementById("functionCall").innerHTML= cipher.encode(message, offset);
+     document.getElementById("functionCall").innerHTML= cipher.encode(message, offsetn);
          
       
   
 })
+
+
+copiar.addEventListener("click", function myFunction(){
+    let copyText = document.getElementById("functionCall");
+  copyText.select();
+  document.execCommand("copy");
+  
+  let tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+})
+
+copiar.addEventListener("mouseover", function outFunc() {
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Copy to clipboard";
+  })
 
 /*button enviar*/
 send.addEventListener("click", () =>{
@@ -82,9 +99,11 @@ decifer.addEventListener("click", () =>{
     const mCiphered = document.getElementById("mCiphered").value;
     const offset2 = document.getElementById("offset2").value;
 
+    let offset2n = parseInt(offset2, 10);
+
     /*llamar la función y mostrarlo*/
     document.getElementById("resultsp2").innerHTML = "Tu resultado descifrado es: " ;
-    document.getElementById("functionDecifer").innerHTML= cipher.decode(mCiphered, offset2) ;
+    document.getElementById("functionDecifer").innerHTML= cipher.decode(mCiphered, offset2n) ;
 })
 
 home.addEventListener("click", () =>{

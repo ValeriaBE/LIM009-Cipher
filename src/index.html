@@ -35,9 +35,15 @@
       <button id="cifer">Cifrar</button>
     </div>
     <div id="results">
-      <p id="resultsp" align="center"> </p>
-      <h1 id ="functionCall" align="center"> </h1>
-      <button id="send" >Enviar</button>
+      <p id="resultsp"> </p>
+      <h1 id ="functionCall"> </h1>
+      <div class="tooltip">
+        <button id="copiar" click='myFunction("functionCall")' mouseover="outFunc()">
+          <span class="tooltiptext" id="myTooltip">Copiar a clipboard</span>
+          Copiar
+          </button>
+        </div>
+      <button id="send" >Salir</button>
     </div>
     <div id="patienteScreen">
       <textarea name="textarea" id="mCiphered" cols="30" rows="10" placeholder="Tu resultado cifrado aquí" required></textarea>
@@ -47,8 +53,8 @@
       <button id="decifer">Descifrar</button>
     </div>
     <div id="results2">
-      <p id="resultsp2" align="center"> </p>
-      <h1 id="functionDecifer" align="center"> </h1>
+      <p id="resultsp2"> </p>
+      <h1 id="functionDecifer"> </h1>
       <button id ="back">Home</button>
     </div>
     <script src="cipher.js"></script>
