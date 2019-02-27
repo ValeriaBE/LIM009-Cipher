@@ -20,10 +20,10 @@ Decisiones de diseño:
 
 Imagenes de la página:
 
-![logo](https://i.ibb.co/NNWLwrX/Captura-de-pantalla-2019-02-27-a-la-s-08-13-36.png =50*50)
-![welcome](https://i.ibb.co/KmkfCj0/Captura-de-pantalla-2019-02-27-a-la-s-08-13-48.png =50*50)
-![button](https://i.ibb.co/FzxHzn1/Captura-de-pantalla-2019-02-27-a-la-s-08-14-00.png =50*50)
-![results](https://i.ibb.co/5MXzGRp/Captura-de-pantalla-2019-02-27-a-la-s-08-14-35.png =50*50)
+![logo](https://i.ibb.co/NNWLwrX/Captura-de-pantalla-2019-02-27-a-la-s-08-13-36.png =50x50)
+![welcome](https://i.ibb.co/KmkfCj0/Captura-de-pantalla-2019-02-27-a-la-s-08-13-48.png =50x50)
+![button](https://i.ibb.co/FzxHzn1/Captura-de-pantalla-2019-02-27-a-la-s-08-14-00.png =50x50)
+![results](https://i.ibb.co/5MXzGRp/Captura-de-pantalla-2019-02-27-a-la-s-08-14-35.png =50x50)
 
 
 # Cifrado César
