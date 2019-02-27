@@ -68,6 +68,7 @@ copiar.addEventListener("click", function myFunction(){
   
   let tooltip = document.getElementById("myTooltip");
   tooltip.innerHTML = "Copied: " + copyText.value;
+  history.go(0);
 })
 
 copiar.addEventListener("mouseover", function outFunc() {
@@ -79,6 +80,7 @@ copiar.addEventListener("mouseover", function outFunc() {
 send.addEventListener("click", () =>{
 results.style.display="none";
 options.style.display="block";
+history.go(0);
 })
 
 /*función al botón paciente*/
@@ -110,4 +112,5 @@ home.addEventListener("click", () =>{
     results2.style.display="none";
     resultsp2.style.display ="none";
     welcome.style.display="block";
+    history.go(0);
 })

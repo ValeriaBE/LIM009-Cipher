@@ -181,15 +181,12 @@ margin-top: 20px;
 
 #resultsp{
     font-family: Gill Sans, sans-serif;
-    margin-left: 170px;
-    align-items:"center";
 }
 
 #functionCall{
     font-family: Gill Sans, sans-serif;
     color: #F5BC5E;
-    align-items:"center";
-    margin-left: 200px;
+
 }
 
 #patienteScreen{
@@ -223,15 +220,11 @@ margin-top: 20px;
 
 #resultsp2{
     font-family: Gill Sans, sans-serif;   
-    align-content: "center";
-    margin-left: 60px;
 }
 
 #functionDecifer{
     font-family: Gill Sans, sans-serif;
     color: #F5BC5E;
-    align-content: "center";
-    margin-left: 120px;
 }
 
 #back{
