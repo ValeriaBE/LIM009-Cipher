@@ -2,7 +2,7 @@ window.cipher = {
   encode: (message, offsetn) => {
 
     /*definir una variable resultado vacío*/
-    let resultado = " ";
+    let resultado = "";
 
     /*implementar un for para que recorre todo el texto*/
     for(let i=0; i< message.length; i++){
@@ -19,13 +19,14 @@ window.cipher = {
     if(valorAsccideLetra==44){
       resultado+= String.fromCharCode(valorAsccideLetra);
     }
+
   }
     return (resultado);
   },
   decode: (mCiphered, offset2n) => {
     
     /*Definir la variable resultado descifrado*/
-    let resultadoDecode = " ";
+    let resultadoDecode = "";
 
     /*implementar un for y definir la formula*/
     for(let j=0; j<mCiphered.length; j++){
@@ -42,6 +43,7 @@ window.cipher = {
       if(valor==44){
         resultadoDecode+= String.fromCharCode(valor);
       }
+    
     }
   
     return (resultadoDecode);
