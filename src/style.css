@@ -170,12 +170,12 @@ margin-top: 20px;
 
 
 #results{
-    width: 500px;
+    width: 1000px;
     margin: 0;
     display: block;
     justify-content: center;
     align-items: center;
-    margin-left: 450px;
+    margin-left: 200px;
     margin-top: 200px;
 }
 
@@ -200,12 +200,12 @@ margin-top: 20px;
 }
 
 #results2{
-    width: 300px;
+    width: 1000px;
     margin: 0;
     display: block;
     justify-content: center;
     align-items: center;
-    margin-left: 550px;
+    margin-left: 200px;
     margin-top: 200px;
 }
 
@@ -237,7 +237,7 @@ margin-top: 20px;
     color: #fff;
     background-color: #97D700;  
     margin-top:20px;
-    margin-left: 95px;
+    margin-left: 450px;
 }
 
 #copiar{
@@ -250,7 +250,7 @@ margin-top: 20px;
     color: #fff;
     background-color: #97D700;  
     margin-top:20px;
-    margin-left: 135px; 
+    margin-left: 380px; 
 }
 .tooltip {
     position: relative;
