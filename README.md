@@ -18,9 +18,9 @@ Decisiones de diseño:
 - Los botones tienen bordes redondos para que el usuario tengan una vista más suave al ver y usar la página.
 - El resultado al final se plasma de otro color para notar la diferencia entre el texto de arriba y el resultado.
 
-Logo de la página:
+Inicio de la página:
 
-![logo](https://i.ibb.co/NNWLwrX/Captura-de-pantalla-2019-02-27-a-la-s-08-13-36.png)
+![logo](https://i.ibb.co/511CqnJ/Captura-de-pantalla-2019-03-03-a-la-s-22-07-50.png)
 
 
 # Cifrado César

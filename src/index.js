@@ -59,22 +59,28 @@ cifer.addEventListener("click", () =>{
       
   
 })
+copiar.addEventListener("click", function() {
+    let copy = document.getElementById('copytext')
+    // We will need a range object and a selection.
+    var range = document.createRange(),
+        selection = window.getSelection();
 
+    // Clear selection from any previous data.
+    selection.removeAllRanges();
 
-copiar.addEventListener("click", function myFunction(){
-    let copyText = document.getElementById("functionCall");
-  copyText.select();
-  document.execCommand("copy");
-  
-  let tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copied: " + copyText.value;
-  history.go(0);
-})
+    // Make the range select the entire content of the contentHolder paragraph.
+    range.selectNodeContents(copy);
 
-copiar.addEventListener("mouseover", function outFunc() {
-    var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = "Copy to clipboard";
-  })
+    // Add that range to the selection.
+    selection.addRange(range);
+
+    // Copy the selection to clipboard.
+    document.execCommand('copy');
+
+    // Clear selection if you want to.
+    selection.removeAllRanges();
+
+}, false);
 
 /*button enviar*/
 send.addEventListener("click", () =>{
