@@ -48,6 +48,9 @@ window.cipher = {
     if(valorAsccideLetra>=191 && valorAsccideLetra<=252 && offsetn<0){
       resultado+=String.fromCharCode(valorAsccideLetra);
     }
+    if(valorAsccideLetra>=32 && valorAsccideLetra<65 && offsetn<0){
+      resultado+= String.fromCharCode(valorAsccideLetra);
+    }
   }
 }
     return (resultado);
@@ -95,7 +98,9 @@ window.cipher = {
         if(valor>=191 && valor<=252 && offset2n<0){
           resultadoDecode+=String.fromCharCode(valor);
         }
-    
+        if(valor>=32 &&  valor<65 && offset2n<0){
+          resultadoDecode+= String.fromCharCode(valor);
+        }
       }
 
     }
