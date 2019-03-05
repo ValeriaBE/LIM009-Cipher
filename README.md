@@ -8,7 +8,7 @@ Este proyecto se basa en poder cifrar y descifrar resultados médicos. ¿Cómo a
 Si bien es cierto esto puede servir para proteger al paciente de manera presencial, Oncosalud tiene un sitio web muy activo y fucnional. Su sitio es utilizado por varios pacientes y tiene una opción de solicitar su diagnóstico. Ahora, si nos ponemos en el peor de los casos, alguien con el usuario y la contraseña puede ingresar a ver los resultados de cualquier paciente. Oncosalud no menciona nada sobre su sitio web en su reglamento, ahí es donde encontramos un vacío.
 Es por eso que proponemos CifraMed. Un sistema de cifrado donde el doctor o el staff médico puede ingresar los resultados médicos del paciente y cifrarlo mediante un código especial, con el fin de salvaguardar la privacidad de los resultados del paciente. Después, de haberse enviado el documento el paciente tendrá que ingresar ese mismo código especial para poder descifrar sus resultados médicos.
 
-####Decisiones de diseño:
+#### Decisiones de diseño:
 
 - El nombre CifraMed es la unión de las palabras cifrar y médico. Como esto será un sistema para presentarlo a clínicas tiene que tener un nombre genérico y simple para recordar.
 - El isotipo (_la figura de un folder con una cruz_) fue escogido por su color azul y por su simplicidad. Al verlo se entiende que se trata de algo médico.
@@ -18,7 +18,7 @@ Es por eso que proponemos CifraMed. Un sistema de cifrado donde el doctor o el s
 - Los botones tienen bordes redondos para que el usuario tengan una vista más suave al ver y usar la página.
 - El resultado al final se plasma de otro color para notar la diferencia entre el texto de arriba y el resultado.
 
-####Instrucciones:
+#### Instrucciones:
 1. En la página de incio, lee la bienvenida y presiona el botón empezar
 2. Decide entre las opciones doctor y paciente
 3. Si escogiste doctor, ingresa el mensaje que quieres cifrar y escoge el offset
@@ -29,7 +29,7 @@ Es por eso que proponemos CifraMed. Un sistema de cifrado donde el doctor o el s
 8. Tu resultado estará plasmado en la pantalla
 9. Para regresar al inicio, dale click a home
 
-####Inicio de la página:
+#### Inicio de la página:
 
 ![logo](https://i.ibb.co/511CqnJ/Captura-de-pantalla-2019-03-03-a-la-s-22-07-50.png)
 
