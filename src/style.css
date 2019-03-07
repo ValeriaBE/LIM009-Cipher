@@ -1,1 +1,83 @@
-/* Acá va tu código */
+*{
+    margin:0;
+    padding:0;
+}
+
+.display-inline{
+    display: inline-block;
+}
+
+header{
+    height:100px;
+    display: flex;
+    align-items: center;
+    background: #9BE0EA;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #C5C5C5;
+}
+
+.icon{
+    width:50px;
+    height:50px;
+    padding-right:10px;
+    margin-left:90px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+@media (min-width: 768px){
+.menu {
+    float: left;
+    margin: 0;
+}}
+.menu{
+    list-style: none;
+    position: absolute;
+    right: 0;
+    padding-right: 30px;
+}
+.menu li{
+    margin: 10px 5px;
+}
+.menu li btn{
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.center-items{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+.btn{
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background: #E3E3E3;
+    border: none;
+}
+
+.color-white{
+    color:#fff;
+}
+
+.center-content{
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+}
+.background-image{
+    position: relative;
+    width: 100%;
+}

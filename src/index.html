@@ -1,15 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Bienvenido</h1>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>CifraMed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="border-bottom">
+    <div class="center-items">
+      <img class="icon display-inline" src="https://image.flaticon.com/icons/png/256/139/139289.png"
+        alt="medical-suitcase">
+      <h1 class="display-inline color-white">CifraMed</h1>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    <ul class="menu center-items">
+      <li class="display-inline">
+        <button class="btn color-white border-bottom">HOME</button>
+      </li>
+      <li class="display-inline">
+        <button class="btn color-white border-bottom">CONTACT</button>
+      </li>
+      <li class="display-inline">
+        <button class="btn color-white border-bottom">INSTRUCTIONS</button>
+      </li>
+    </ul>
+  </header>
+  <img class="background-image"
+      src="https://cdn.aarp.net/content/dam/aarp/health/conditions_treatments/2018/01/1140-hospitals-overflow-with-flu-Patients.imgcache.revb8eb3d0cfb11329fed3a53f981abb3ff.jpg"
+      alt="people" />
+  <div id="welcome" class="center-content">
+    <div>
+      <section>
+        <h1>BIENVENID@S</h1>
+        <p>
+          Los resultados aquí contenidos son importantes para continuar con la política
+          de prevención y vida saludable que promovemos en nuestra empresa. Recuerda que
+          siempre que hagas tus chequeos preventivos estaremos a tiempo de encontrar
+          algún tratamiento para lo que se pueda presentar.
+        </p>
+      </section>
+      <button id="start">Empezar</button>
+    </div>
+  </div>
+  <div id="options">
+    <button id="doctor">Doctor</button>
+    <button id="patient">Paciente</button>
+  </div>
+  <div id="doctorScreen">
+    <textarea name="textbox" id="message" cols="30" rows="10" placeholder="El resultado aquí" required></textarea>
+    <input type="number" id="offset" min="-100" max="100">
+    <br />
+    <br>
+    <button id="cifer">Cifrar</button>
+  </div>
+  <div id="results">
+    <p id="resultsp"> </p>
+    <div id="copytext">
+      <h1 id="functionCall"> </h1>
+    </div>
+    <button class="btn" id="copiar">Enviar</button>
+    <button id="send">Salir</button>
+  </div>
+  <div id="patienteScreen">
+    <textarea name="textarea" id="mCiphered" cols="30" rows="10" placeholder="Tu resultado cifrado aquí"
+      required></textarea>
+    <input type="number" id="offset2" min="-100" max="100">
+    <br>
+    <br>
+    <button id="decifer">Descifrar</button>
+  </div>
+  <div id="results2">
+    <p id="resultsp2"> </p>
+    <h1 id="functionDecifer"> </h1>
+    <button id="back">Home</button>
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+  <script src="dist/clipboard.min.js"></script>
+</body>
+
 </html>
