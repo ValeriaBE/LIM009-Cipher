@@ -1,255 +1,83 @@
-body{
-    background-color: #fff;
+*{
+    margin:0;
+    padding:0;
+}
+
+.display-inline{
+    display: inline-block;
+}
+
+header{
+    height:100px;
+    display: flex;
+    align-items: center;
+    background: #9BE0EA;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #C5C5C5;
+}
+
+.icon{
+    width:50px;
+    height:50px;
+    padding-right:10px;
+    margin-left:90px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+@media (min-width: 768px){
+.menu {
+    float: left;
+    margin: 0;
+}}
+.menu{
+    list-style: none;
+    position: absolute;
+    right: 0;
+    padding-right: 30px;
+}
+.menu li{
+    margin: 10px 5px;
+}
+.menu li btn{
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.center-items{
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
 
-.header{
-    width: auto;
-    display: block;
-    background-color: white;
-    padding: 6px;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-}
 
-#welcome{
-
-font-family: Gill Sans, sans-serif;
-display: block;
-align-items: center;
-justify-content: center;
-  height: 200px;
-  margin-top: 150px;
-  margin-left: 400px;
-  padding-top: 1px;
-  padding-left: 10px;
-  width: 300px;
-}
-
-#bienvenido{
-    margin:0;
-    font-size: 50px;
-    color: #97D700;
-
-}
-#instructions{
-    width: 600px;
-}
-
-#start{
-margin: 0;
-margin-top: 20px;
-  border: none;
-  border-radius: 6px;
-  padding: 10px 20px;
-  font-size: 25px;
-  font-family: Gill Sans, sans-serif;
-  color: #fff;
-  background-color: #19B2B2;
-}
-
-#logo {
-     width: 4%;
-     height: 2%;
-     padding: 4px;
-     margin-left: 80px;
-     display: inline-block;
-     vertical-align: middle;
-}
-
-#name{
-    display: inline-block;
-    color:#19B2B2;
-    margin-left: 5px;
-    vertical-align: middle;
-    font-family: Arial, sans-serif;
-   
-}
-
-#options{
-    width: 300px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top:200px;
-}
-
-#doctor{
-    display: inline-block;
-    margin: 0;
-    margin-right:20px;
-      border: none;
-      border-radius: 6px;
-      padding: 10px 20px;
-      font-size: 25px;
-      font-family: Gill Sans, sans-serif;
-      color: #fff;
-      background-color: #97D700; 
-}
-
-#patient{
-    display: inline-block;
-    margin: 0;
-      border: none;
-      border-radius: 6px;
-      padding: 10px 20px;
-      font-size: 25px;
-      font-family: Gill Sans, sans-serif;
-      color: #fff;
-      background-color: #97D700;
-}
-
-#cifer{
-    margin: 0;
-    margin-left: 50px;
+.btn{
+    background-color: transparent;
     border: none;
-    border-radius: 6px;
-    padding: 10px 20px;
-    font-size: 25px;
-    font-family: Gill Sans, sans-serif;
-    color: #fff;
-    background-color: #97D700;
+    padding: 20px;
+    font-size: 20px;
 }
 
-#send{
-    margin-top:20px;
-    margin-left: 25px;
+.btn:hover{
+    background: #E3E3E3;
     border: none;
-    border-radius: 6px;
-    padding: 10px 20px;
-    font-size: 25px;
-    font-family: Gill Sans, sans-serif;
-    color: #fff;
-    background-color: #97D700;
-
 }
 
-#decifer{
-    
-    margin: 0;
-    border: none;
-    border-radius: 6px;
-    padding: 10px 20px;
-    font-size: 25px;
-    font-family: Gill Sans, sans-serif;
-    color: #fff;
-    background-color: #97D700;
-    margin-top:20px;
-    margin-left: 30px;
+.color-white{
+    color:#fff;
 }
 
-#doctorScreen{
-    
-    width: 350px;
-    margin: 0;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-left:600px;
-    margin-top: 200px;
+.center-content{
+        margin: auto;
+        width: 50%;
+        padding: 10px;
 }
-
-#message{
-    display: inline-block;
+.background-image{
+    position: relative;
+    width: 100%;
 }
-
-#offset{
-    display: inline-block;
-    margin-left: 20px;
-
-    
-}
-
-
-#results{
-    width: 1000px;
-    margin: 0;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-left: 200px;
-    margin-top: 200px;
-}
-
-#resultsp{
-    font-family: Gill Sans, sans-serif;
-}
-
-#functionCall{
-    font-family: Gill Sans, sans-serif;
-    color: #F5BC5E;
-
-}
-
-#patienteScreen{
-    width: 350px;
-    margin: 0;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-left: 600px;
-    margin-top: 200px;
-}
-
-#results2{
-    width: 1000px;
-    margin: 0;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-left: 200px;
-    margin-top: 200px;
-}
-
-#mCiphered{
-    display: inline-block;
-}
-
-#offset2{
-    display: inline-block;
-    margin-left: 20px;
-}
-
-#resultsp2{
-    font-family: Gill Sans, sans-serif;   
-}
-
-#functionDecifer{
-    font-family: Gill Sans, sans-serif;
-    color: #F5BC5E;
-}
-
-#back{
-    display: inline-block;
-    border: none;
-    border-radius: 6px;
-    padding: 10px 20px;
-    font-size: 25px;
-    font-family: Gill Sans, sans-serif;
-    color: #fff;
-    background-color: #97D700;  
-    margin-top:20px;
-    margin-left: 450px;
-}
-
-#copiar{
-    display: inline-block;
-    border: none;
-    border-radius: 6px;
-    padding: 10px 20px;
-    font-size: 25px;
-    font-family: Gill Sans, sans-serif;
-    color: #fff;
-    background-color: #97D700;  
-    margin-top:20px;
-    margin-left: 380px; 
-}
-
-@media screen and (min-width: 480px) and(max-width: 780px){
-.header{
-    background-color: red;
-}
-}
-  
-  
