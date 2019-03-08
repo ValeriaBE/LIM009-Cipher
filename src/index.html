@@ -6,49 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <title>CifraMed</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:700" rel="stylesheet">
 </head>
 
 <body>
   <header class="border-bottom">
     <div class="center-items">
       <img class="icon display-inline" src="https://image.flaticon.com/icons/png/256/139/139289.png"
-        alt="medical-suitcase">
-      <h1 class="display-inline color-white">CifraMed</h1>
+        alt="medical-suitcase" />
+      <h1 class="display-inline color-gray">CifraMed</h1>
     </div>
     <ul class="menu center-items">
       <li class="display-inline">
-        <button class="btn color-white border-bottom">HOME</button>
+        <button class="btn color-gray border-bottom">HOME</button>
       </li>
       <li class="display-inline">
-        <button class="btn color-white border-bottom">CONTACT</button>
+        <button class="btn color-gray border-bottom">CONTACT</button>
       </li>
       <li class="display-inline">
-        <button class="btn color-white border-bottom">INSTRUCTIONS</button>
+        <button class="btn color-gray border-bottom">INSTRUCTIONS</button>
       </li>
     </ul>
   </header>
-  <img class="background-image"
-      src="https://cdn.aarp.net/content/dam/aarp/health/conditions_treatments/2018/01/1140-hospitals-overflow-with-flu-Patients.imgcache.revb8eb3d0cfb11329fed3a53f981abb3ff.jpg"
-      alt="people" />
+  <div class="background-image"></div>
   <div id="welcome" class="center-content">
     <div>
-      <section>
-        <h1>BIENVENID@S</h1>
-        <p>
+      <section  class="words-image" >
+        <h1 class="font-bienvenidos color-white">BIENVENIDOS</h1>
+        <p class="font-paragraph color-white">
           Los resultados aquí contenidos son importantes para continuar con la política
           de prevención y vida saludable que promovemos en nuestra empresa. Recuerda que
-          siempre que hagas tus chequeos preventivos estaremos a tiempo de encontrar
-          algún tratamiento para lo que se pueda presentar.
+          siempre que hagas tus chequeos preventivos estaremos <br />
+          a tiempo de encontrar algún tratamiento para lo que se pueda presentar.
         </p>
       </section>
-      <button id="start">Empezar</button>
+      <div class="btn-on-image words-image">
+          <button id="start">Empezar</button>
+        </div>
     </div>
   </div>
-  <div id="options">
+
+  <div class="options-screen" id="options">
     <button id="doctor">Doctor</button>
     <button id="patient">Paciente</button>
   </div>
-  <div id="doctorScreen">
+  <div id="doctor-screen">
     <textarea name="textbox" id="message" cols="30" rows="10" placeholder="El resultado aquí" required></textarea>
     <input type="number" id="offset" min="-100" max="100">
     <br />

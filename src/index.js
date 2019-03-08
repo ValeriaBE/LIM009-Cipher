@@ -4,7 +4,7 @@ const start = document.getElementById("start");
 const options = document.getElementById("options");
 const doctor = document.getElementById("doctor");
 const patient = document.getElementById("patient");
-const doctorScreen = document.getElementById("doctorScreen");
+const doctorScreen = document.getElementById("doctor-screen");
 const cifer =document.getElementById("cifer");
 const results = document.getElementById("results");
 const resultsp = document.getElementById("resultsp");
@@ -25,11 +25,6 @@ results.style.display ="none";
 resultsp.style.display ="none";
 results2.style.display="none";
 resultsp2.style.display ="none";
-
-const home2 =document.getElementsByClassName("button");
-home2.addEventListener("click", ()=>{
-    welcome.style.display="none";
-})
 
 /*función al botón empezar*/
 start.addEventListener("click", () =>{
