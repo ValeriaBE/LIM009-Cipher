@@ -1,3 +1,38 @@
+# CifraMed
+
+Este proyecto se basa en poder cifrar y descifrar resultados médicos. ¿Cómo así surgió la idea? Primero, averigué sobre la política de privacidad de un paciente en  Perú. Nosotros tenemos dos leyes que de manera muy general tocan los temas de _Seguridad de la información_ y _código de protección y defensa del consumidor_. Según, mi investigación cada clínica se responsabiliza por la privacidad del paciente. Por tal motivo, tomaré como ejemplo a la clínica Oncosalud. Voy a presentar dos principios de su reglamento.
+
+- ONCOSALUD adopta las medidas de seguridad necesarias para garantizar la protección de la información del Usuario a fin de evitar su alteración, pérdida, tratamiento y/o _acceso no autorizado_.
+- ONCOSALUD se compromete a no divulgar o compartir los Datos Personales del Usuario, sin que haya prestado el debido consentimiento para ello.
+
+Si bien es cierto esto puede servir para proteger al paciente de manera presencial, Oncosalud tiene un sitio web muy activo y fucnional. Su sitio es utilizado por varios pacientes y tiene una opción de solicitar su diagnóstico. Ahora, si nos ponemos en el peor de los casos, alguien con el usuario y la contraseña puede ingresar a ver los resultados de cualquier paciente. Oncosalud no menciona nada sobre su sitio web en su reglamento, ahí es donde encontramos un vacío.
+Es por eso que proponemos CifraMed. Un sistema de cifrado donde el doctor o el staff médico puede ingresar los resultados médicos del paciente y cifrarlo mediante un código especial, con el fin de salvaguardar la privacidad de los resultados del paciente. Después, de haberse enviado el documento el paciente tendrá que ingresar ese mismo código especial para poder descifrar sus resultados médicos.
+
+#### Decisiones de diseño:
+
+- El nombre CifraMed es la unión de las palabras cifrar y médico. Como esto será un sistema para presentarlo a clínicas tiene que tener un nombre genérico y simple para recordar.
+- El isotipo (_la figura de un folder con una cruz_) fue escogido por su color azul y por su simplicidad. Al verlo se entiende que se trata de algo médico.
+- El fondo blanco se escogió porque el color trae tranquilidad y se asocia con transparencia y limpieza.
+- La bienvenida siempre tiene que llamar la atención por eso el título tiene un tamaño de letra más grande y de otro color. 
+- Los colores azul, verde, anaranjado fueron escogidos a propósito a través de una rueda de colores complementarios. EL color azul es usado por otras páginas de clínicas.
+- Los botones tienen bordes redondos para que el usuario tengan una vista más suave al ver y usar la página.
+- El resultado al final se plasma de otro color para notar la diferencia entre el texto de arriba y el resultado.
+
+#### Instrucciones:
+1. En la página de incio, lee la bienvenida y presiona el botón empezar
+2. Decide entre las opciones doctor y paciente
+3. Si escogiste doctor, ingresa el mensaje que quieres cifrar y escoge el offset
+4. Dale click a cifrar
+5. Al ver tu resultado, presiona el botón enviar y luego salir
+6. Si escogiste paciente, ingresa el mensaje que quieres descifrar o haz Ctrl + v para pegar en mensaje previamente cifrado
+7. Determina el offset y dale click a descifrar
+8. Tu resultado estará plasmado en la pantalla
+9. Para regresar al inicio, dale click a home
+
+#### Inicio de la página:
+
+![logo](https://i.ibb.co/511CqnJ/Captura-de-pantalla-2019-03-03-a-la-s-22-07-50.png)
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
