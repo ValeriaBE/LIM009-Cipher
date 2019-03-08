@@ -87,25 +87,31 @@ ul{
     font-family: 'Muli', sans-serif;
 }
 .background-image{
-    background-image:url(hospital.jpg);
+    background-image:url(hospital3.jpg);
     height: 800px; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     filter: blur(4px);
-  -webkit-filter: blur(4px);
+    -webkit-filter: blur(4px);
 }
 .color-white{
     color:#fff;
 }
 section{
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 50%;
-  padding: 20px;
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    top: 50%;
+    left: 50%;
+    width:50%;
+}
+.words-image{
+    position:absolute;
+    font-weight:bold;
+    z-index:2;
+    padding: 20px;
+    transform: translate(-50%,-50%);
+}
+.btn-on-image{
+    top: 80%;
+    left: 50%;
 }
