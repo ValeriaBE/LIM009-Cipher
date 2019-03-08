@@ -13,7 +13,13 @@ describe('cipher', () => {
     it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', ()=>{
       assert.equal(cipher.encode('ABCDEFGHIJKLMNOPQRSTUVWXYZ', 33), 'HIJKLMNOPQRSTUVWXYZABCDEFG');
     });
+    it('debería retornar "EFGHIJKLMNOPQRSTUVWXYZABCD" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 30', ()=>{
+      assert.equal(cipher.encode('ABCDEFGHIJKLMNOPQRSTUVWXYZ', 30), 'EFGHIJKLMNOPQRSTUVWXYZABCD');
+    });
 
+    it('debería retornar "efghijklmnopqrstuvwxyzabcd" para "abcdefghijklmnopqrstuvwxyz" con offset 30', ()=>{
+      assert.equal(cipher.encode("abcdefghijklmnopqrstuvwxyz", 30), "efghijklmnopqrstuvwxyzabcd");
+    });
     it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33', ()=>{
       assert.equal(cipher.encode("abcdefghijklmnopqrstuvwxyz", 33), "hijklmnopqrstuvwxyzabcdefg");
     });
@@ -54,9 +60,15 @@ describe('cipher', () => {
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33', () =>{
       assert.equal(cipher.decode('HIJKLMNOPQRSTUVWXYZABCDEFG', 33),"ABCDEFGHIJKLMNOPQRSTUVWXYZ" );
     });
+    it('debería retornar "DEFGHIJKLMNOPQRSTUVWXYZABC" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 30', () =>{
+      assert.equal(cipher.decode('HIJKLMNOPQRSTUVWXYZABCDEFG', 30),"DEFGHIJKLMNOPQRSTUVWXYZABC" );
+    });
 
     it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg con offset 33', () =>{
       assert.equal(cipher.decode("hijklmnopqrstuvwxyzabcdefg", 33),"abcdefghijklmnopqrstuvwxyz" );
+    });
+    it('debería retornar "defghijklmnopqrstuvwxyzabc" para "hijklmnopqrstuvwxyzabcdefg con offset 30', () =>{
+      assert.equal(cipher.decode("hijklmnopqrstuvwxyzabcdefg", 30),"defghijklmnopqrstuvwxyzabc" );
     });
 
     it('debería retornar " !#$%&()*+,-./0123456789:;<=>?@" para " !#$%&()*+,-./0123456789:;<=>?@" con offset 33', ()=>{
