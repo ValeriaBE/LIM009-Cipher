@@ -30,16 +30,11 @@ ul{
     list-style-type: none;
 }
 
-@media (min-width: 768px){
-.menu {
-    float: left;
-    margin: 0;
-}}
 .menu{
     list-style: none;
     position: absolute;
     right: 0;
-    padding-right: 30px;
+    padding-right: 90px;
 }
 .menu li{
     margin: 10px 5px;
@@ -59,12 +54,17 @@ ul{
 .btn{
     background-color: transparent;
     border: none;
-    padding: 20px;
-    font-size: 20px;
+    padding: 15px;
+    font-size: 10px;
 }
 
 .btn:hover{
-    background: #E3E3E3;
+    color: #fff;
+    text-transform: uppercase;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
     border: none;
 }
 
@@ -79,15 +79,16 @@ ul{
 }
 
 .font-paragraph{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Gothic A1', sans-serif;
     font-size: 20px;
 }
 
 .font-bienvenidos{
-    font-family: 'Muli', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Heebo', sans-serif;
 }
 .background-image{
-    background-image:url(hospital3.jpg);
+    background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(history.jpg);
     height: 800px; 
     background-position: center;
     background-repeat: no-repeat;
@@ -95,6 +96,7 @@ ul{
     filter: blur(4px);
     -webkit-filter: blur(4px);
 }
+
 .color-white{
     color:#fff;
 }
@@ -110,8 +112,28 @@ section{
     z-index:2;
     padding: 20px;
     transform: translate(-50%,-50%);
-}
-.btn-on-image{
-    top: 80%;
     left: 50%;
 }
+
+.listo{
+    top: 80%;
+}
+.option-btn{
+    top: 50%;
+}
+
+.button{
+    border: none;
+    background: #404040;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+.button:hover{
+    color: #404040;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background: #fff;
+    transition: all 0.3s ease 0s;
