@@ -6,26 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <title>CifraMed</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Heebo|Open+Sans+Condensed:300" rel="stylesheet">
+  
 </head>
 
 <body>
   <header class="border-bottom">
     <div class="center-items">
-      <img class="icon display-inline" src="https://image.flaticon.com/icons/png/256/139/139289.png"
+      <img class="icon display-inline" src="https://image.flaticon.com/icons/svg/1420/1420242.svg"
         alt="medical-suitcase" />
-      <h1 class="display-inline color-gray">CifraMed</h1>
+      <h1 class="display-inline color-gray font-bienvenidos">CifraMed</h1>
     </div>
-    <ul class="menu center-items">
+    <ul class="menu center-items font-bienvenidos">
       <li class="display-inline">
-        <button class="btn color-gray border-bottom">HOME</button>
+        <button class="btn color-gray border-bottom">Home</button>
       </li>
       <li class="display-inline">
-        <button class="btn color-gray border-bottom">CONTACT</button>
+        <button class="btn color-gray border-bottom">Contact</button>
       </li>
       <li class="display-inline">
-        <button class="btn color-gray border-bottom">INSTRUCTIONS</button>
+        <button class="btn color-gray border-bottom">Instructions</button>
       </li>
     </ul>
   </header>
@@ -41,43 +42,43 @@
           a tiempo de encontrar algún tratamiento para lo que se pueda presentar.
         </p>
       </section>
-      <div class="btn-on-image words-image">
-          <button class="button" id="start">LISTO?</button>
+      <div class=" listo words-image">
+          <button class="button color-white display-inline" id="start">LISTO</button>
         </div>
     </div>
   </div>
 
-  <div class="options-screen" id="options">
-    <button id="doctor">Doctor</button>
-    <button id="patient">Paciente</button>
+  <div class="options-screen words-image option-btn" id="options">
+    <button id="doctor" class="button color-white display-inline">Doctor</button>
+    <button id="patient" class="button color-white display-inline">Paciente</button>
   </div>
-  <div id="doctor-screen">
+  <div id="doctor-screen" class="words-image option-btn">
     <textarea name="textbox" id="message" cols="30" rows="10" placeholder="El resultado aquí" required></textarea>
     <input type="number" id="offset" min="-100" max="100">
     <br />
     <br>
-    <button id="cifer">Cifrar</button>
+    <button id="cifer" class="button color-white display-inline">Cifrar</button>
   </div>
-  <div id="results">
-    <p id="resultsp"> </p>
+  <div class="options-screen words-image option-btn" id="results">
+    <p id="resultsp"></p>
     <div id="copytext">
-      <h1 id="functionCall"> </h1>
+      <h1 id="functionCall"></h1>
     </div>
-    <button class="btn" id="copiar">Enviar</button>
-    <button id="send">Salir</button>
+    <button class="button color-white display-inline option-btn" id="copiar">Enviar</button>
+    <button class="button color-white display-inline option-btn"id="send">Salir</button>
   </div>
-  <div id="patienteScreen">
+  <div id="patienteScreen" class="words-image option-btn">
     <textarea name="textarea" id="mCiphered" cols="30" rows="10" placeholder="Tu resultado cifrado aquí"
       required></textarea>
     <input type="number" id="offset2" min="-100" max="100">
     <br>
     <br>
-    <button id="decifer">Descifrar</button>
+    <button id="decifer" class="button color-white display-inline">Descifrar</button>
   </div>
-  <div id="results2">
+  <div id="results2" class="options-screen words-image option-btn">
     <p id="resultsp2"> </p>
     <h1 id="functionDecifer"> </h1>
-    <button id="back">Home</button>
+    <button id="back" class="button color-white display-inline option-btn">Home</button>
   </div>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
