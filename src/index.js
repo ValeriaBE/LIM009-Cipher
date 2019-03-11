@@ -1,4 +1,6 @@
 /* introducir todo los elementos del first screen y options, doc and pt */
+const contactScreen =document.getElementById("contact-screen");
+const instructionScreen =document.getElementById("instructions-screen");
 const welcome = document.getElementById("welcome");
 const start = document.getElementById("start");
 const options = document.getElementById("options");
@@ -15,9 +17,13 @@ const results2 = document.getElementById("results2");
 const resultsp2 = document.getElementById("resultsp2");
 const home =document.getElementById("back");
 const copiar = document.getElementById("copiar");
-
+const homeHeaderBtn =document.getElementById("home-header-btn");
+const contactHeaderBtn =document.getElementById("contact-header-btn");
+const instructionsHeaderBtn = document.getElementById("instructions-header-btn");
 
 /* solo visualizar la primera pantalla */
+contactScreen.style.display="none";
+instructionScreen.style.display="none";
 options.style.display = "none";
 doctorScreen.style.display = "none";
 patienteScreen.style.display = "none";
@@ -26,6 +32,46 @@ resultsp.style.display ="none";
 results2.style.display="none";
 resultsp2.style.display ="none";
 
+homeHeaderBtn.addEventListener("click", ()=>{
+    contactScreen.style.display="none";
+    instructionScreen.style.display="none";
+    options.style.display = "none";
+    doctorScreen.style.display = "none";
+    patienteScreen.style.display = "none";
+    results.style.display ="none";
+    resultsp.style.display ="none";
+    results2.style.display="none";
+    resultsp2.style.display ="none";
+    welcome.style.display="block";
+})
+
+contactHeaderBtn.addEventListener("click", ()=>{
+    contactScreen.style.display="none";
+    instructionScreen.style.display="none";
+    options.style.display = "none";
+    doctorScreen.style.display = "none";
+    patienteScreen.style.display = "none";
+    results.style.display ="none";
+    resultsp.style.display ="none";
+    results2.style.display="none";
+    resultsp2.style.display ="none";
+    welcome.style.display="none"
+    contactScreen.style.display="block";
+})
+
+instructionsHeaderBtn.addEventListener("click", ()=>{
+    contactScreen.style.display="none";
+    instructionScreen.style.display="none";
+    options.style.display = "none";
+    doctorScreen.style.display = "none";
+    patienteScreen.style.display = "none";
+    results.style.display ="none";
+    resultsp.style.display ="none";
+    results2.style.display="none";
+    resultsp2.style.display ="none";
+    welcome.style.display="none"
+    instructionScreen.style.display="block";
+})
 /*función al botón empezar*/
 start.addEventListener("click", () =>{
     welcome.style.display="none";
