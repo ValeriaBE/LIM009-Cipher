@@ -8,14 +8,14 @@ const doctor = document.getElementById("doctor");
 const patient = document.getElementById("patient");
 const doctorScreen = document.getElementById("doctor-screen");
 const cifer =document.getElementById("cifer");
-const results = document.getElementById("results");
-const resultsp = document.getElementById("resultsp");
-const send = document.getElementById("send");
+const resultsScreenCifrar = document.getElementById("pantalla-results-cifrar");
+const resultsCifrado = document.getElementById("results-cifrado");
 const patienteScreen = document.getElementById("patienteScreen");
 const decifer = document.getElementById("decifer");
-const results2 = document.getElementById("results2");
-const resultsp2 = document.getElementById("resultsp2");
-const home =document.getElementById("back");
+const resultsScreenDescifrar = document.getElementById("results-screen-decode");
+const resultsDescifrado = document.getElementById("results-descifrado");
+const exitHome =document.getElementById("exit-to-home");
+const backHome =document.getElementById("back-to-home");
 const copiar = document.getElementById("copiar");
 const homeHeaderBtn =document.getElementById("home-header-btn");
 const contactHeaderBtn =document.getElementById("contact-header-btn");
@@ -27,10 +27,10 @@ instructionScreen.style.display="none";
 options.style.display = "none";
 doctorScreen.style.display = "none";
 patienteScreen.style.display = "none";
-results.style.display ="none";
-resultsp.style.display ="none";
-results2.style.display="none";
-resultsp2.style.display ="none";
+resultsScreenCifrar.style.display ="none";
+resultsCifrado.style.display ="none";
+resultsScreenDescifrar.style.display="none";
+resultsDescifrado.style.display ="none";
 
 homeHeaderBtn.addEventListener("click", ()=>{
     contactScreen.style.display="none";
@@ -38,10 +38,10 @@ homeHeaderBtn.addEventListener("click", ()=>{
     options.style.display = "none";
     doctorScreen.style.display = "none";
     patienteScreen.style.display = "none";
-    results.style.display ="none";
-    resultsp.style.display ="none";
-    results2.style.display="none";
-    resultsp2.style.display ="none";
+    resultsScreenCifrar.style.display ="none";
+    resultsCifrado.style.display ="none";
+    resultsScreenDescifrar.style.display="none";
+    resultsDescifrado.style.display ="none";
     welcome.style.display="block";
 })
 
@@ -51,10 +51,10 @@ contactHeaderBtn.addEventListener("click", ()=>{
     options.style.display = "none";
     doctorScreen.style.display = "none";
     patienteScreen.style.display = "none";
-    results.style.display ="none";
-    resultsp.style.display ="none";
-    results2.style.display="none";
-    resultsp2.style.display ="none";
+    resultsScreenCifrar.style.display ="none";
+    resultsCifrado.style.display ="none";
+    resultsScreenDescifrar.style.display="none";
+    resultsDescifrado.style.display ="none";
     welcome.style.display="none"
     contactScreen.style.display="block";
 })
@@ -65,10 +65,10 @@ instructionsHeaderBtn.addEventListener("click", ()=>{
     options.style.display = "none";
     doctorScreen.style.display = "none";
     patienteScreen.style.display = "none";
-    results.style.display ="none";
-    resultsp.style.display ="none";
-    results2.style.display="none";
-    resultsp2.style.display ="none";
+    resultsScreenCifrar.style.display ="none";
+    resultsCifrado.style.display ="none";
+    resultsScreenDescifrar.style.display="none";
+    resultsDescifrado.style.display ="none";
     welcome.style.display="none"
     instructionScreen.style.display="block";
 })
@@ -87,8 +87,8 @@ doctor.addEventListener("click", () =>{
 /*función al botón cifrar*/
 cifer.addEventListener("click", () =>{
     doctorScreen.style.display="none";
-    results.style.display="block";
-    resultsp.style.display ="block";
+    resultsScreenCifrar.style.display="block";
+    resultsCifrado.style.display ="block";
 
     /*alert("El resultado se ha cifrado");*/
 
@@ -99,8 +99,8 @@ cifer.addEventListener("click", () =>{
      let offsetn = parseInt(offset, 10);
 
      /*llamar la función encode y mostrarlo en la pantalla*/
-     document.getElementById("resultsp").innerHTML="El resultado cifrado es: " ;
-     document.getElementById("functionCall").innerHTML= cipher.encode(message, offsetn);
+     document.getElementById("results-cifrado").innerHTML="El resultado cifrado es: " ;
+     document.getElementById("llamar-función-encode").innerHTML= cipher.encode(message, offsetn);
          
       
   
@@ -117,8 +117,8 @@ copiar.addEventListener("click", function() {
 }, false);
 
 /*button enviar*/
-send.addEventListener("click", () =>{
-results.style.display="none";
+exitHome.addEventListener("click", () =>{
+resultsScreenCifrar.style.display="none";
 options.style.display="block";
 history.go(0);
 })
@@ -132,10 +132,8 @@ patient.addEventListener("click", () =>{
 /*función al botón descifrar*/
 decifer.addEventListener("click", () =>{
     patienteScreen.style.display="none";
-    results2.style.display="block";
-    resultsp2.style.display ="block";
-
-    /*alert("Tu resultado se ha descifrado");*/
+    resultsScreenDescifrar.style.display="block";
+    resultsDescifrado.style.display ="block";
 
     /*coger los valores del mensaje y el offset*/
     const mCiphered = document.getElementById("mCiphered").value;
@@ -144,13 +142,13 @@ decifer.addEventListener("click", () =>{
     let offset2n = parseInt(offset2, 10);
 
     /*llamar la función y mostrarlo*/
-    document.getElementById("resultsp2").innerHTML = "Tu resultado descifrado es: " ;
-    document.getElementById("functionDecifer").innerHTML= cipher.decode(mCiphered, offset2n) ;
+    document.getElementById("results-descifrado").innerHTML = "Tu resultado descifrado es: " ;
+    document.getElementById("llamar-función-decode").innerHTML= cipher.decode(mCiphered, offset2n) ;
 })
 
-home.addEventListener("click", () =>{
-    results2.style.display="none";
-    resultsp2.style.display ="none";
+backHome.addEventListener("click", () =>{
+    resultsScreenDescifrar.style.display="none";
+    resultsDescifrado.style.display ="none";
     welcome.style.display="block";
     history.go(0);
 })
